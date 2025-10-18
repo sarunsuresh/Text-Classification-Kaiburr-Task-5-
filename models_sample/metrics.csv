@@ -1,0 +1,5 @@
+model,accuracy,f1_macro
+LogisticRegression,0.1,0.1
+LinearSVC,0.95,0.48717948717948717
+RandomForest,0.95,0.48717948717948717
+MultinomialNB,0.95,0.48717948717948717
