@@ -15,7 +15,7 @@ Baseline performance: LogisticRegression (71% accuracy, 0.44 macro F1 on ~11k sa
 Handled imbalance with class weights; chunked loading for low RAM.  
 
 ## Setup & Usage
-1. Clone: `git clone https://github.com/yourusername/Text-Classification-Kaiburr.git`  
+1. Clone: `git clone https://github.com/sarunsuresh/Text-Classification-Kaiburr-Task-5.git`  
 2. Install deps: `pip install -r requirements.txt`  
 3. NLTK setup: `python -c "from src.utils import _ensure_nltk; _ensure_nltk()"`  
 4. Train on sample: `python src/train.py --input data/complaints_sample.csv --output_dir models_sample --sample_size 0 --max_features 2000`  
@@ -23,7 +23,7 @@ Handled imbalance with class weights; chunked loading for low RAM.
 6. Batch predict: `python src/predict.py --model_dir models_sample --input_csv data/test_cases.csv` (adds labels to CSV)  
 7. Tests: `python -m unittest test.test_util -v`  
 
-Full report: [docs/project_report.md](docs/project_report.md)  
+Full report: [docs/project_report.md](docs/Project_report.md)  
 
 ## Folder Structure
 - `src/`: Core code (utils, train, predict)  
