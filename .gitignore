@@ -1,0 +1,18 @@
+# Data and large files
+*.csv
+data/*.csv  # Except sample if committed
+complaints.csv
+
+# Models and outputs
+*.joblib
+models_sample/*.joblib
+models_sample/*.png  # Ignore plots if large; commit CSV
+
+# Python cache/temp
+__pycache__/
+*.pyc
+.env
+.DS_Store
+
+# Logs
+*.log
