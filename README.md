@@ -23,7 +23,7 @@ Handled imbalance with class weights; chunked loading for low RAM.
 6. Batch predict: `python src/predict.py --model_dir models_sample --input_csv data/test_cases.csv` (adds labels to CSV)  
 7. Tests: `python -m unittest test.test_util -v`  
 
-Full report: [docs/project_report.md](docs/project_report.md)  
+Full report: [docs/project_report.md](docs/Project_report.md)  
 
 ## Folder Structure
 - `src/`: Core code (utils, train, predict)  
